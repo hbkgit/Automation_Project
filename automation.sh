@@ -1,5 +1,7 @@
 
 
+sudo apt update -y
+
 if [ $( dpkg --status apache2 | grep -c "ok installed" ) -eq 0 ];
 then
 	sudo apt-get install apache2
