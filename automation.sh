@@ -47,7 +47,7 @@ lgtyp='httpd-logs'
 typ='tar'
 echo $lgtyp$'\t'$(date "+%d%m%Y-%H%M%S")$'\t'$typ$'\t'$(ls -lh shubham-httpd-logs* | awk '{print $5}') >> /var/www/html/inventory.html
 
-#logic to add automation
+#logic to  add automation
 rm shubham-httpd-logs*
 if [ -f "/etc/cron.d/automation" ];
 then
