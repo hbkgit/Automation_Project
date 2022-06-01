@@ -1,3 +1,2 @@
 # Automation_Project
-project task2 module 7
-These project is about running a autoamtion script which will check wheather apache2 is install or not and its current status and also we are saving error file and log file in the s3 bucket with the current timestamp, basicaly these script cover the health check for the apache2.
+These project is about creating and running a autoamtion script  (name: automation.sh) which will check weather apache2 is installed or not and its current status and also we are making tar file out of error file and log file, and later saving the tar file in the s3 bucket with the current timestamp, basicaly these script cover the health check for the apache2. Also we are making sure that is script is scheduled on daily basis.
